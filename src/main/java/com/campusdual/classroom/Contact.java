@@ -72,6 +72,7 @@ public class Contact implements ICallActions {
         System.out.println("Código: " + code);
     }
 
+    // Sobreescritura deñ toString
     @Override
     public String toString() {
         return name + " " + surnames + " (" + code + ")";
